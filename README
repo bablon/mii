@@ -1,0 +1,9 @@
+A simple mdio tool using socket ioctl interface
+
+Usage:
+
+mdio (c22|c45) read IFNAME REGSTR
+mdio (c22|c45) read IFNAME REGSTR DATA
+where
+ c22: REGSTR: phy.reg[_page][:bit_h[.bit_l]]
+ c45: REGSTR: phy.dev.reg[:bit_h[.bit_l]]
